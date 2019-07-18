@@ -1,0 +1,51 @@
+<div class="page">
+    <!-- <div class="header"></div> -->
+    <div class="main">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/slider/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./assets/slider/3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <ul>
+                <li *ngFor="let logo of logos">
+                    <img [src]="logo.src" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="vi">
+            <ul>
+                <li *ngFor="let logo of vis">
+                    <img [src]="logo.src" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="pack">
+            <ul>
+                <li *ngFor="let logo of packs">
+                    <img [src]="logo.src" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="shop">
+            <ul>
+                <li *ngFor="let logo of shops">
+                    <img [src]="logo.src" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="kefu">
+            <img src="./assets/background.jpg" alt="">
+        </div>
+        <!-- <div class="copyright"></div> -->
+    </div>
+    <!-- <div class="footer"></div> -->
+</div>
