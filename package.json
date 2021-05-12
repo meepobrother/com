@@ -39,7 +39,7 @@
     "@nrwl/angular": "^8.2.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.4.0",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "zone.js": "^0.9.1"
   },
   "devDependencies": {
